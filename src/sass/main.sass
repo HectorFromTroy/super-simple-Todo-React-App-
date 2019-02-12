@@ -1,0 +1,53 @@
+$color: #a3c6ff
+  
+*
+  box-sizing: border-box
+
+body
+  font-size: 10px
+
+ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+.ToDo
+  width: 510px
+  padding: 20px
+  font-size: 2rem
+
+.ToDo__form
+  font-size: 2rem
+
+.ToDo__input
+  border-top-left-radius: 5px
+  border-bottom-left-radius: 5px
+  border: 2px solid $color
+  padding: 5px
+  font-size: 2rem
+
+.ToDo__add
+  background-color: $color
+  border: none
+  font-size: 2rem
+  color: white
+  padding: 7px
+  border-top-right-radius: 5px
+  border-bottom-right-radius: 5px
+  cursor: pointer
+
+.ToDo__list
+  padding-top: 10px
+
+.ToDo__item
+  background-color: $color
+  color: white
+  padding: 10px
+  border-radius: 5px
+  cursor: pointer
+
+  &:not(:first-child)
+    margin-top: 15px
+
+  &:hover
+    opacity: .8
